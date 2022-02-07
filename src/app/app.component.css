@@ -1,0 +1,71 @@
+
+.middle-container{
+    width:30%;
+    margin: 100px auto;
+    border:1px solid #eee;
+    padding: 10px;
+    box-shadow:1px 1px 2px #ddd; 
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.input-horizontal {
+    width: 49.5%;
+}
+.input-element{
+    border:1px solid #eee;
+    border-radius: 3px;
+    width: 100%;
+}
+.username-input{
+    border-right: none;
+    width: 100%;
+    border: none;
+}
+.username-outer {
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #eee;
+    border-radius: 3px;
+}
+.username-outer:focus-within{
+    border: 2px solid black;
+}
+.username-input:focus{
+    border:none !important;
+    outline: none;
+}
+.addon{
+    border-left: none;
+    background: none;
+    color: #777;
+    height: 29px;
+    border: none;
+    margin: 0px;
+}
+.sign-in-link{
+    color: blue;
+    text-decoration: none;
+}
+.btn{
+    background: blue;
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 7px 15px;
+}
+
+.form-row {
+  margin: 10px 0px 5px;
+}
+.form-row-checkbox {
+    display: flex;
+}
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  padding:0px;
+}
